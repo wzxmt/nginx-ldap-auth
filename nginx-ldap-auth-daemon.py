@@ -298,7 +298,7 @@ if __name__ == '__main__':
     # Group for listen options:
     group = parser.add_argument_group("Listen options")
     group.add_argument('--host',  metavar="hostname",
-        default="localhost", help="host to bind (Default: localhost)")
+        default="0.0.0.0", help="host to bind (Default: localhost)")
     group.add_argument('-p', '--port', metavar="port", type=int,
         default=8888, help="port to bind (Default: 8888)")
     # ldap options:
