@@ -18,7 +18,7 @@ elif sys.version_info.major == 3:
     from http.cookies import BaseCookie
     from http.server import HTTPServer, BaseHTTPRequestHandler
 
-Listen = ('localhost', 9000)
+Listen = ('0.0.0.0', 9000)
 
 import threading
 if sys.version_info.major == 2:
